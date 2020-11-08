@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class DietBoxApiApplication {
 
 	public static void main(String[] args) {
+		System.setProperty("spring.config.name", "paasta/DietBoxAPI");
 		SpringApplication.run(DietBoxApiApplication.class, args);
 	}
 
