@@ -1,4 +1,4 @@
-package com.example.paasta.DietBoxAPI.models.data_enums;
+package com.example.DietBoxAPI.models.data_enums;
 
 public enum RDA {
     RECOMMENDED_DAILY_ALLOWANCE(2600, 390

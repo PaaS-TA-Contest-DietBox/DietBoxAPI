@@ -1,8 +1,8 @@
-package com.example.paasta.DietBoxAPI.controller;
+package com.example.DietBoxAPI.controller;
 
-import com.example.paasta.DietBoxAPI.models.Foods;
-import com.example.paasta.DietBoxAPI.models.data_enums.Nutrients;
-import com.example.paasta.DietBoxAPI.services.FoodServiceImpl;
+import com.example.DietBoxAPI.models.Foods;
+import com.example.DietBoxAPI.models.data_enums.Nutrients;
+import com.example.DietBoxAPI.services.FoodServiceImpl;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.http.HttpStatus;

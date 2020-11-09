@@ -1,12 +1,12 @@
-package com.example.paasta.DietBoxAPI.services;
+package com.example.DietBoxAPI.services;
 
-import com.example.paasta.DietBoxAPI.configurations.NutrientsConfig;
-import com.example.paasta.DietBoxAPI.configurations.RDAConfig;
-import com.example.paasta.DietBoxAPI.models.Foods;
-import com.example.paasta.DietBoxAPI.models.data_enums.Nutrients;
-import com.example.paasta.DietBoxAPI.models.data_enums.RDA;
-import com.example.paasta.DietBoxAPI.repositories.FoodRepository;
-import com.example.paasta.DietBoxAPI.services.interfaces.FoodService;
+import com.example.DietBoxAPI.configurations.NutrientsConfig;
+import com.example.DietBoxAPI.configurations.RDAConfig;
+import com.example.DietBoxAPI.models.Foods;
+import com.example.DietBoxAPI.models.data_enums.Nutrients;
+import com.example.DietBoxAPI.models.data_enums.RDA;
+import com.example.DietBoxAPI.repositories.FoodRepository;
+import com.example.DietBoxAPI.services.interfaces.FoodService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

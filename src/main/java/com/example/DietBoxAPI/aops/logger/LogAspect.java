@@ -1,4 +1,4 @@
-package com.example.paasta.DietBoxAPI.aops.logger;
+package com.example.DietBoxAPI.aops.logger;
 
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;
@@ -15,7 +15,7 @@ public class LogAspect {
     /*@Around("execution(* com.example.backend.services..*.*(..))")*/
     /*@Around("execution(* com.example.backend..*.*(..))")*/
 
-    @Around("execution(* com.example.backend.controllers..*.*(..))")
+    @Around("execution(* com.example.DietBoxAPI.controller..*.*(..))")
     public Object controllerLogger(ProceedingJoinPoint pjp) throws Throwable {
         logger.info("start - " + pjp.getSignature().getDeclaringTypeName() + " / " + pjp.getSignature().getName());
         Object result = pjp.proceed();
@@ -24,7 +24,7 @@ public class LogAspect {
         return result;
     }
 
-    @Around("execution(* com.example.backend.services..*.*(..))")
+    @Around("execution(* com.example.DietBoxAPI.services..*.*(..))")
     public Object serviceLogger(ProceedingJoinPoint pjp) throws Throwable {
         logger.info("start - " + pjp.getSignature().getDeclaringTypeName() + " / " + pjp.getSignature().getName());
         Object result = pjp.proceed();

@@ -1,10 +1,10 @@
-package com.example.paasta.DietBoxAPI.services;
+package com.example.DietBoxAPI.services;
 
-import com.example.paasta.DietBoxAPI.configurations.FoodOpenApiConfig;
-import com.example.paasta.DietBoxAPI.configurations.HttpConnectionConfig;
-import com.example.paasta.DietBoxAPI.models.Foods;
-import com.example.paasta.DietBoxAPI.repositories.FoodOpenApiRepository;
-import com.example.paasta.DietBoxAPI.services.interfaces.FoodOpenApiService;
+import com.example.DietBoxAPI.configurations.FoodOpenApiConfig;
+import com.example.DietBoxAPI.configurations.HttpConnectionConfig;
+import com.example.DietBoxAPI.models.Foods;
+import com.example.DietBoxAPI.repositories.FoodOpenApiRepository;
+import com.example.DietBoxAPI.services.interfaces.FoodOpenApiService;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.json.simple.JSONArray;

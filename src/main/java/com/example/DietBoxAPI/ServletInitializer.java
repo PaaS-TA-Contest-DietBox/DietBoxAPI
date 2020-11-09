@@ -1,4 +1,4 @@
-package com.example.paasta.DietBoxAPI;
+package com.example.DietBoxAPI;
 
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;

@@ -1,4 +1,4 @@
-package com.example.paasta.DietBoxAPI.configurations;
+package com.example.DietBoxAPI.configurations;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;

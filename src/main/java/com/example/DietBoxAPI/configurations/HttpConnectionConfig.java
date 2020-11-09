@@ -1,4 +1,4 @@
-package com.example.paasta.DietBoxAPI.configurations;
+package com.example.DietBoxAPI.configurations;
 
 import org.apache.http.client.HttpClient;
 import org.apache.http.impl.client.HttpClientBuilder;

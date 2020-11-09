@@ -1,6 +1,6 @@
-package com.example.paasta.DietBoxAPI.services.interfaces;
+package com.example.DietBoxAPI.services.interfaces;
 
-import com.example.paasta.DietBoxAPI.models.Foods;
+import com.example.DietBoxAPI.models.Foods;
 
 import java.net.MalformedURLException;
 
