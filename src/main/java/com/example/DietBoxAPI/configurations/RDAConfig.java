@@ -1,6 +1,6 @@
-package com.example.paasta.DietBoxAPI.configurations;
+package com.example.DietBoxAPI.configurations;
 
-import com.example.paasta.DietBoxAPI.models.data_enums.RDA;
+import com.example.DietBoxAPI.models.data_enums.RDA;
 import lombok.Getter;
 import lombok.Setter;
 import org.springframework.boot.context.properties.ConfigurationProperties;

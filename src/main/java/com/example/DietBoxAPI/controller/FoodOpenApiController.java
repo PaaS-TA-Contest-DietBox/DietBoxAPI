@@ -1,6 +1,6 @@
-package com.example.paasta.DietBoxAPI.controller;
+package com.example.DietBoxAPI.controller;
 
-import com.example.paasta.DietBoxAPI.services.FoodOpenApiServiceImpl;
+import com.example.DietBoxAPI.services.FoodOpenApiServiceImpl;
 import org.springframework.scheduling.annotation.EnableScheduling;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.web.bind.annotation.CrossOrigin;

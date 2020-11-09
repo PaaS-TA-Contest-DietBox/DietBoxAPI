@@ -1,4 +1,4 @@
-package com.example.paasta.DietBoxAPI;
+package com.example.DietBoxAPI;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

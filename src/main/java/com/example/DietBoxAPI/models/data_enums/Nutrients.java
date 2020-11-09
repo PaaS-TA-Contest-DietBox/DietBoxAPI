@@ -1,4 +1,4 @@
-package com.example.paasta.DietBoxAPI.models.data_enums;
+package com.example.DietBoxAPI.models.data_enums;
 
 public enum Nutrients {
     CHICKEN(154.2355191160072, 297.17152796650964

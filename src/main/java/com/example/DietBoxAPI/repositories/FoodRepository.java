@@ -1,6 +1,6 @@
-package com.example.paasta.DietBoxAPI.repositories;
+package com.example.DietBoxAPI.repositories;
 
-import com.example.paasta.DietBoxAPI.models.Foods;
+import com.example.DietBoxAPI.models.Foods;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 

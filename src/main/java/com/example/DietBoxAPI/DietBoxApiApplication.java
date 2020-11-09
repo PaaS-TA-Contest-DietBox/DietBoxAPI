@@ -1,4 +1,4 @@
-package com.example.paasta.DietBoxAPI;
+package com.example.DietBoxAPI;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

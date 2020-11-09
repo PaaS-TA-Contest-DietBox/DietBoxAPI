@@ -1,4 +1,4 @@
-package com.example.paasta.DietBoxAPI.configurations;
+package com.example.DietBoxAPI.configurations;
 
 import lombok.Getter;
 import lombok.Setter;
