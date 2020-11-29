@@ -1,0 +1,6 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="DietBoxAPI-0.0.1-SNAPSHOT">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="DietBoxAPI-0.0.1-SNAPSHOT.war" />
+  </artifact>
+</component>
