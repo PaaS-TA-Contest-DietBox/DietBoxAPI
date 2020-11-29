@@ -1,0 +1,11 @@
+Main-Class: com.example.DietBoxAPI.DietBoxApiApplication
+Manifest-Version: 1.0
+Created-By: IntelliJ IDEA
+Built-By: exponential-e
+Build-Jdk: 1.8.0_211
+Implementation-Title: DietBoxAPI
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: com.example
+
+
+
